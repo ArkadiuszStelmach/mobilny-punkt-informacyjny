@@ -1,0 +1,97 @@
+#naglowek {
+	font-size: 80px
+}
+
+#wysz {
+	position:fixed;
+	top: 50;
+	right:-400;
+	height:400;
+	width:450;
+	background-color:#63676d;
+	transition:0.5s;
+}
+
+#wysz:hover {
+    position:fixed;
+	top: 50;
+	right: 0;
+	height:400;
+	width:450;
+	background-color:rgba(99, 103, 109, 0.4);
+}
+
+#dod {
+	position:fixed;
+	top: 500;
+	right:-400;
+	height:400;
+	width:450;
+	background-color:#63676d;
+	transition:0.5s;
+}
+
+#dod:hover {
+    position:fixed;
+	top: 500;
+	right: 0;
+	height:400;
+	width:450;
+	background-color:rgba(99, 103, 109, 0.4);
+}
+
+#baza {
+	font-size: 18px;
+}
+
+#n {
+	font-size: 20px
+}
+
+#t {
+	font-size: 20px
+}
+
+table, th, td {
+   border: 1px solid black;
+   border-collapse: collapse;
+   padding: 2px;
+}
+
+input[type=text] {
+    font-size: 20px
+}
+
+select {
+	font-size: 20px
+}
+
+a:link, a:visited {
+    color: rgba(255,0,0,0.4);
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	color: rgba(255,0,0,1);
+	text-decoration: none;
+}
+
+#menu {
+	position: fixed;
+	top: 50;
+	left: -400;
+	height: 850;
+	width: 450;
+	background-color: #63676d;
+	transition: 0.5s;
+	font-size: 20px;
+}
+
+#menu:hover {
+    position: fixed;
+	top: 50;
+	left: 0;
+	height: 850;
+	width: 450;
+	background-color: rgba(99, 103, 109, 0.4);
+}
